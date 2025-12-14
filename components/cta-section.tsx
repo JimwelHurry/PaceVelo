@@ -44,14 +44,7 @@ export function CTASection() {
                   Schedule a Consultation
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-primary/30 hover:bg-primary/10 text-lg px-8 py-6 bg-transparent"
-                >
-                  <Download className="mr-2 w-5 h-5" />
-                  Download Portfolio
-                </Button>
+               
               </div>
 
               <div className="pt-12 border-t border-border/40">

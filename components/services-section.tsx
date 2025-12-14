@@ -132,13 +132,13 @@ export function ServicesSection() {
                     initial={{ x: -10 }}
                     whileHover={{ x: 0 }}
                   >
-                    <span>Learn more</span>
+
                     <motion.span
                       animate={{ x: [0, 5, 0] }}
                       transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
                       className="ml-2"
                     >
-                      →
+                      
                     </motion.span>
                   </motion.div>
                 </div>

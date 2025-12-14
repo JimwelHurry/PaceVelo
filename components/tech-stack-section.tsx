@@ -11,39 +11,39 @@ if (typeof window !== "undefined") {
 
 const techCategories = [
   {
-    category: "Frontend",
+    category: "Full-Stack Velocity", // Emphasizing speed across the stack
     technologies: [
-      { name: "React", level: 98 },
-      { name: "Next.js", level: 95 },
-      { name: "TypeScript", level: 97 },
-      { name: "Tailwind CSS", level: 96 },
+      { name: "Global-Scale Frontend Architecture", level: 98 },
+      { name: "Optimized Backend/API Logic", level: 95 },
+      { name: "Clean, Typed Codebase (TS/Go)", level: 97 },
+      { name: "Agile, Rapid Prototyping", level: 96 },
     ],
   },
   {
-    category: "Backend",
+    category: "Cloud & Infrastructure", // Covering the whole deployment cycle
     technologies: [
-      { name: "Node.js", level: 95 },
-      { name: "Python", level: 92 },
-      { name: "Go", level: 88 },
-      { name: "GraphQL", level: 90 },
+      { name: "Cloud-Agnostic Deployment (AWS/GCP)", level: 94 },
+      { name: "Serverless & Container Strategy", level: 96 },
+      { name: "Zero-Downtime Pipeline (CI/CD)", level: 90 },
+      { name: "Data Resilience & Backup", level: 92 },
     ],
   },
   {
-    category: "Cloud & DevOps",
+    category: "Performance & UX", // Highlighting the 'Angas' factor
     technologies: [
-      { name: "AWS", level: 94 },
-      { name: "Kubernetes", level: 91 },
-      { name: "Docker", level: 96 },
-      { name: "Terraform", level: 89 },
+      { name: "Sub-second Load Times Guaranteed", level: 99 },
+      { name: "GSAP/Framer Motion Mastery", level: 98 }, // Show off your specialty!
+      { name: "API Latency Optimization", level: 95 },
+      { name: "Cross-Device/Browser Consistency", level: 97 },
     ],
   },
   {
-    category: "Database",
+    category: "Technical Standards", // Proving quality and professionalism
     technologies: [
-      { name: "PostgreSQL", level: 95 },
-      { name: "MongoDB", level: 92 },
-      { name: "Redis", level: 94 },
-      { name: "Elasticsearch", level: 87 },
+      { name: "Automated QA & Testing", level: 95 },
+      { name: "Security First Development", level: 96 },
+      { name: "Transparent Code Ownership", level: 94 },
+      { name: "Dedicated Technical Documentation", level: 93 },
     ],
   },
 ]

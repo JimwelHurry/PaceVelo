@@ -102,13 +102,7 @@ export function HeroSection() {
               Start Your Project
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-border hover:bg-secondary bg-transparent text-lg px-8 py-6"
-            >
-              View Case Studies
-            </Button>
+           
           </motion.div>
 
           <motion.div

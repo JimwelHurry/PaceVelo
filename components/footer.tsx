@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Linkedin, Twitter, Github } from "lucide-react"
+import { Linkedin, Facebook, Github } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function Footer() {
@@ -33,28 +33,28 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.1 }}
           >
             <h3 className="font-semibold mb-4 text-foreground">Services</h3>
-            <ul className="space-y-3">
-              <li>
-                <Link href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Custom Software
-                </Link>
-              </li>
-              <li>
-                <Link href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Digital Transformation
-                </Link>
-              </li>
-              <li>
-                <Link href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  DevOps & Cloud
-                </Link>
-              </li>
-              <li>
-                <Link href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Dedicated Teams
-                </Link>
-              </li>
-            </ul>
+           <ul className="space-y-3">
+          <li>
+              <Link href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Full-Stack Sprints
+              </Link>
+          </li>
+          <li>
+              <Link href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Digital Architecture
+              </Link>
+          </li>
+          <li>
+              <Link href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Cloud Velocity & DevOps
+              </Link>
+          </li>
+          <li>
+              <Link href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Elite Engineering Team
+              </Link>
+          </li>
+      </ul>
           </motion.div>
 
           <motion.div
@@ -75,11 +75,7 @@ export function Footer() {
                   Case Studies
                 </Link>
               </li>
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Careers
-                </Link>
-              </li>
+             
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Contact
@@ -103,10 +99,11 @@ export function Footer() {
                 <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-primary-foreground transition-colors" />
               </Link>
               <Link
-                href="#"
-                className="w-10 h-10 rounded-lg bg-secondary border border-border flex items-center justify-center hover:bg-primary hover:border-primary transition-all duration-300 group glow-border"
+                  href="#" // Palitan ito ng actual Facebook URL mo
+                  className="w-10 h-10 rounded-lg bg-secondary border border-border flex items-center justify-center hover:bg-primary hover:border-primary transition-all duration-300 group glow-border"
               >
-                <Twitter className="w-5 h-5 text-muted-foreground group-hover:text-primary-foreground transition-colors" />
+                  {/* Dito pinalitan ang Twitter ng Facebook */}
+                  <Facebook className="w-5 h-5 text-muted-foreground group-hover:text-primary-foreground transition-colors" />
               </Link>
               <Link
                 href="#"

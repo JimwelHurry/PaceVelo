@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 
 const caseStudies = [
   {
-    title: "Modern Banking App",
-    client: "FinTech Startup",
+    title: "Modern Web App",
+    client: "",
     description: "Rebuilt their entire frontend in React. Clean, fast, and actually works on mobile.",
     metrics: [
       { label: "Faster Builds", value: "5x", icon: Zap },
@@ -19,7 +19,7 @@ const caseStudies = [
   },
   {
     title: "E-Commerce Platform",
-    client: "D2C Fashion Brand",
+    client: "",
     description:
       "Built a custom e-commerce platform from scratch. Handles Black Friday traffic without breaking a sweat.",
     metrics: [
@@ -32,7 +32,7 @@ const caseStudies = [
   },
   {
     title: "Analytics Dashboard",
-    client: "SaaS Company",
+    client: "",
     description: "Real-time analytics dashboard with beautiful charts. Makes data actually look interesting.",
     metrics: [
       { label: "Data Points", value: "1M+", icon: TrendingUp },
@@ -58,11 +58,12 @@ export function CaseStudiesSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            Stuff we've <span className="text-primary glow-text">built</span>
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Real projects from real clients. No fake portfolios here.
-          </p>
+    Engineered <span className="text-primary glow-text">Blueprints</span>
+</h2>
+<p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+   We are a high-velocity startup. Our focus is the standard we build to. 
+    Review the technical blueprints that guarantee elite performance.
+</p>
         </motion.div>
 
         <div className="space-y-12">
@@ -119,13 +120,7 @@ export function CaseStudiesSection() {
                       ))}
                     </div>
 
-                    <Button
-                      variant="outline"
-                      className="w-fit group/btn border-primary/30 hover:bg-primary/10 bg-transparent"
-                    >
-                      View Full Case Study
-                      <ArrowUpRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
-                    </Button>
+                    
                   </div>
                 </div>
               </div>
